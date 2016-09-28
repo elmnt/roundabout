@@ -105,7 +105,8 @@ gulp.task('build', ['pre'], function() {
     ass_c + 'styles.min.css',
     ass_i + '**',
     ass_j + 'main.min.js',
-    ass_h
+    ass_h,
+    'app/.htaccess'
   ], { base: 'app/'})
   .pipe(gulpif('*.html', htmlmin({collapseWhitespace: true})))
   .pipe(gulpif('*.html', strip()))
