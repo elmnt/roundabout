@@ -1,0 +1,72 @@
+/**
+ * Custom styles for the project
+ */
+
+.sm-only {
+  display: inline-block;
+}
+
+@media only screen and (min-width: 600px){
+  
+  .sm-only {
+    display: none;
+  }
+
+}
+
+// ----------- Container styles
+
+header,
+footer {
+  background-color: $color-one;
+  color: $color-two;
+}
+
+.wrong {
+  background-color: $color-highlight;
+  color: white;
+}
+
+// ----------- The fade transitions
+
+.fade {
+   display: none;
+   opacity: 0;
+   -o-transition: all .25s ease-in-out;
+   -webkit-transition: all .25s ease-in-out;
+   -moz-transition: all .25s ease-in-out;
+   transition: all .25s ease-in-out;
+}
+
+.fade--in {
+  display: block;
+  opacity: 0;
+  //height: 100% !important;
+  //min-height: 100% !important;
+}
+
+.fade--ingo {
+  opacity: 1;
+}
+
+// CSS :target show/hide method is our fall-back for no JS.
+
+#q1,
+#q1a1,
+#q1a2,
+#q2,
+#q2a1,
+#q2a1b,
+#q2a2 {
+  display: none;
+}
+
+#q1:target,
+#q1a1:target,
+#q1a2:target,
+#q2:target,
+#q2a1:target,
+#q2a1b:target,
+#q2a2:target {
+  display: block;
+}

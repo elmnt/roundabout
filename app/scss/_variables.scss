@@ -1,0 +1,102 @@
+/**
+ * Variables
+ */
+
+// ----------- colors
+
+/* 
+primary a11y colors generated from:
+http://jxnblk.com/colorable/demos/text/
+
+highlight color (red) from:
+http://clrs.cc/ "The New Defaults"
+*/
+
+$jxnblk-gold: #F5C95C;
+$jxnblk-dark: #402B2B;
+$mrmrs-red:   #FF4136;
+
+$color-one:       $jxnblk-gold;
+$color-two:       $jxnblk-dark;
+$color-highlight: $mrmrs-red;
+
+$color-link-hover: #666;
+
+// ----------- base.scss
+
+$html-font-size: 112.5%;
+
+$html-font-size-sm: 100%;
+$html-font-size-md: 112.5%;
+$html-font-size-lg: 125%;
+
+$base-color: $color-two;
+
+$font-sans:  -apple-system, 'avenir next', avenir, 'helvetica neue', helvetica, arial, sans-serif;
+$font-serif: Georgia, Palatino, New York, serif;
+
+$base-font-family: $font-serif;
+
+$base-font-size:   1rem;
+$base-line-height: 1.5em;
+
+$global-trans-time: .25s;
+$global-easing:     ease-out;
+
+// ----------- type.scss
+
+$header-font-family:    $font-sans;
+$header-letter-spacing: 0.025em;
+$header-line-height:    1.35em;
+$header-margin:         1rem 0;
+
+$h1-font-size: 2.5rem;
+$h2-font-size: 2rem;
+$h3-font-size: 1.5rem;
+$h4-font-size: 1.25rem;
+
+$p-margin-bottom: 1.5rem;
+
+$lists-margin-left: 2rem;
+
+$base-link-color:         $color-highlight;
+$base-link-color-visited: $color-highlight;
+$base-link-color-hover:   $color-link-hover;
+
+$base-link-text-decoration:       none;
+$base-link-text-decoration-hover: none;
+
+// ----------- grid.scss
+
+$grid-max-width:        1200px;
+$grid-min-width:        200px;
+$grid-single-max-width: 800px;
+
+$grid-col-gutter-in:  2%;
+$grid-col-gutter-out: 14%;
+$grid-col-width:      35%;
+
+$grid-breakpoint-lg: 1600px;
+$grid-breakpoint-md: 800px;
+$grid-breakpoint-sm: 400px;
+
+$grid-border-top: none;
+
+// ----------- buttons
+
+$button-display:          inline-block;
+$button-color:            white;
+$button-background-color: $color-highlight;
+$button-text-decoration:  none;
+$button-text-transform:   none;
+$button-font-family:      $font-sans;
+$button-font-weight:      bold;
+$button-font-size:        1rem;
+$button-letter-spacing:   $header-letter-spacing;
+$button-padding:          1.5rem 3rem;
+$button-margin:           2rem 0;
+
+$button-color-visited:            white;
+$button-background-color-visited: $color-highlight;
+$button-color-hover:              $color-two;
+$button-background-color-hover:   $color-one;

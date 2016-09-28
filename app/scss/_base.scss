@@ -1,0 +1,90 @@
+/**
+ * Base
+ */
+
+@mixin bbox {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; 
+}
+
+html {
+  @include bbox;
+  -webkit-scroll-behavior: smooth;
+  -moz-scroll-behavior: smooth;
+  -o-scroll-behavior: smooth;
+  -ms-scroll-behavior: smooth;
+  scroll-behavior: smooth; // FF Only for now
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+@mixin trans($t, $easing) {
+  -webkit-transition: all $t $easing;
+  -moz-transition: all $t $easing;
+  -ms-transition: all $t $easing;
+  -o-transition: all $t $easing;
+  transition: all $t $easing;
+}
+
+a, 
+a img, 
+input, 
+textarea,
+button,
+label {
+  @include trans($global-trans-time, $global-easing);
+}
+
+html,
+body { height: 100%; }
+
+html {
+
+  @media only screen and (min-width: $grid-breakpoint-lg){
+    font-size: $html-font-size-lg;
+  }
+
+  @media only screen and (min-width: $grid-breakpoint-md) and (max-width: $grid-breakpoint-lg){
+    font-size: $html-font-size-md;
+  }
+
+  font-size: $html-font-size-sm;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  margin: 0; 
+  padding: 0; 
+  color: $base-color;
+  background-color: white;
+  font-family: $base-font-family;
+  font-size: 100%; 
+  line-height: $base-line-height;
+  font-weight: normal;
+}
+
+img {
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  max-width: 100%;
+}
+
+.cf {
+  &:before,
+  &:after {
+    content: " ";
+    display: table
+  }
+  &:after {
+    clear: both;
+  }
+}

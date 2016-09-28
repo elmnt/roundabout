@@ -1,0 +1,59 @@
+/**
+ * Buttons
+ */
+
+.button {
+
+  display: block;
+  width: 100%;
+
+  @media only screen and (min-width: $grid-breakpoint-sm){
+    display: $button-display;
+    width: auto;
+  } 
+
+  color: $button-color; 
+  background: $button-background-color;
+  text-decoration: $button-text-decoration; 
+  text-transform: $button-text-transform; 
+  text-align: center; 
+  font-family: $button-font-family; 
+  font-weight: $button-font-weight; 
+  font-size: $button-font-size; 
+  letter-spacing: $button-letter-spacing;
+  line-height: 1em; 
+  cursor: pointer; 
+  padding: $button-padding;
+  margin: $button-margin;
+  -webkit-font-smoothing: antialiased;
+  border: none;
+
+  &:visited {
+    color: $button-color-visited;
+    background: $button-background-color-visited;
+  }
+  &:hover,
+  &:focus,
+  &:active {
+    color: $button-color-hover;
+    background: $button-background-color-hover;
+  }
+
+}
+
+.button--white {
+  color: $button-background-color; 
+  background: $button-color;
+
+  &:visited {
+    color: $button-background-color;
+    background: $button-color;
+  }
+  &:hover,
+  &:focus,
+  &:active {
+    color: $button-color-hover;
+    background: $button-background-color-hover;
+  }
+
+}

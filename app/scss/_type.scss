@@ -1,0 +1,51 @@
+/**
+ * Type
+ */
+
+h1,
+h2,
+h3 {
+  margin: $header-margin;
+  font-family: $header-font-family;
+  letter-spacing: $header-letter-spacing;
+  line-height: $header-line-height;
+}
+
+h1 { font-size: $h1-font-size; }
+h2 { font-size: $h2-font-size; }
+h3 { font-size: $h3-font-size; }
+
+p {
+  margin-bottom: $p-margin-bottom;
+}
+
+ul,
+ol {
+  margin-left: $lists-margin-left;
+}
+
+a {
+  font-family: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  text-decoration: $base-link-text-decoration;
+  cursor: pointer;
+  color: $base-link-color;
+
+  &:visited {
+    color: $base-link-color-visited;
+  }
+  &:hover,
+  &:active,
+  &:focus {
+    color: $base-link-color-hover;
+    text-decoration: $base-link-text-decoration-hover;
+  }
+
+}
+
+em {
+  font-weight: bold;
+}
