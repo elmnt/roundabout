@@ -83,7 +83,7 @@ gulp.task('minifyImages', function(){
 });
 */
 
-// ----------- DEFAULT (development)
+// ----------- DEFAULT (local development)
 
 gulp.task('default', ['serve']);
 
@@ -99,12 +99,13 @@ gulp.task('clean', function(callback) {
 
 // ----------- Build
 
-gulp.task('build', ['clean', 'browserSync', 'compileSass', 'minifyScripts'], function() {
+gulp.task('pre', ['compileSass', 'minifyScripts']);
+gulp.task('build', ['pre'], function() {
   return gulp.src([
     ass_c + 'styles.min.css',
     ass_i + '**',
-    ass_c + 'main.min.js',
-    ass_h + 'index.html'
+    ass_j + 'main.min.js',
+    ass_h
   ], { base: 'app/'})
   .pipe(gulpif('*.html', htmlmin({collapseWhitespace: true})))
   .pipe(gulpif('*.html', strip()))
