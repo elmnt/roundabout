@@ -35,9 +35,26 @@ footer p a {
   }
 }
 
+.drivera {
+  color: $mrmrs-blue;
+}
+
+.driverb {
+  color: $mrmrs-fuchsia;
+}
+
 .wrong {
   background-color: $color-highlight;
   color: white;
+}
+
+.imgol {
+  border: 1px solid $jxnblk-dark;
+}
+
+.single img {
+  max-width: 500px;
+  margin: 2rem auto;
 }
 
 // ----------- The fade transitions
@@ -54,12 +71,12 @@ footer p a {
 .fade--in {
   display: block;
   opacity: 0;
-  //height: 100% !important;
-  //min-height: 100% !important;
+  margin-top: 2rem;
 }
 
 .fade--ingo {
   opacity: 1;
+  margin-top: 0;
 }
 
 // CSS :target show/hide method is our fall-back for no JS.
