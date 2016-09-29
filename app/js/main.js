@@ -24,7 +24,7 @@ var quizIntro      = document.getElementById('quizintro'),
 /*
 We need to hide our small size, temp GIFs if there is no JS
 */
-var nojsimg = document.getElementsByClassName('nshide');
+var nojsimg = document.getElementById('has_nshide');
     nojsimg.classList.remove('nshide');
 
 /*
