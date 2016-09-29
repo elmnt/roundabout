@@ -22,6 +22,19 @@ footer {
   color: $color-two;
 }
 
+footer p a {
+  &:link,
+  &:visited {
+    color: $color-two;
+    text-decoration: underline;    
+  }
+  &:hover,
+  &:active {
+    color: $color-link-hover;
+    text-decoration: none;    
+  }
+}
+
 .wrong {
   background-color: $color-highlight;
   color: white;
