@@ -83,3 +83,16 @@ footer p a {
 #q2a2:target {
   display: block;
 }
+
+/*
+Hide divs inside the noscript tags,
+so we can hide the temporary GIF if JS is turned off
+*/
+
+.nshide {
+  position: absolute; 
+  right: 0; 
+  bottom: 0; 
+  display: none; 
+  visibility: hidden;
+}

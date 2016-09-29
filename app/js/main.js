@@ -22,6 +22,12 @@ var quizIntro      = document.getElementById('quizintro'),
     notDone        = document.getElementById('notdone');
 
 /*
+We need to hide our small size, temp GIFs if there is no JS
+*/
+var nojsimg = document.getElementsByClassName('nshide');
+    nojsimg.classList.remove('nshide');
+
+/*
 Scenario 1: 
 User's browser is JS-enabled:
 Immediately add .fade class to hide everything we need hidden, 
