@@ -21,7 +21,12 @@ p {
 
 ul,
 ol {
-  margin-left: $lists-margin-left;
+  margin-left: $lists-margin-left-sm;
+
+  @media only screen and (min-width: $grid-breakpoint-md){
+    font-size: $lists-margin-left;
+  }
+
 }
 
 a {
