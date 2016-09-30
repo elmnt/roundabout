@@ -2,7 +2,7 @@
 
 This is my entry for the 2016 [10k Apart Contest](https://a-k-apart.com).  
 
-[http://howtousearoundabout.com](howtousearoundabout.com)  
+http://howtousearoundabout.com 
 
 ### Inspiration  
 
