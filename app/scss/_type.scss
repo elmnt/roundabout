@@ -12,19 +12,19 @@ h3 {
 }
 
 h1 { 
-  font-size: $h1-font-size-m: 2rem;    
+  font-size: $h1-font-size-m;    
   @media only screen and (min-width: $grid-breakpoint-md){ 
     font-size: $h1-font-size; 
   } 
 }
 h2 { 
-  font-size: $h2-font-size-m: 1.5rem;  
+  font-size: $h2-font-size-m;  
   @media only screen and (min-width: $grid-breakpoint-md){ 
     font-size: $h2-font-size; 
   } 
 }
 h3 { 
-  font-size: $h3-font-size-m: 1.25rem; 
+  font-size: $h3-font-size-m; 
   @media only screen and (min-width: $grid-breakpoint-md){ 
     font-size: $h3-font-size; 
   } 
