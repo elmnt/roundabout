@@ -6,7 +6,7 @@ This is my entry for the 2016 [10k Apart Contest](https://a-k-apart.com).
 
 ### Project Stats 
 
-According to my final test, before submission: **7.799 KB**  
+According to my final test, before submission: **7.846 KB**  
 
 Tested on: [websiteoptimization.com](http://analyze.websiteoptimization.com/wso)  
 
