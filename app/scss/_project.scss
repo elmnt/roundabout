@@ -2,18 +2,6 @@
  * Custom styles for the project
  */
 
-.sm-only {
-  display: inline-block;
-}
-
-@media only screen and (min-width: 600px){
-  
-  .sm-only {
-    display: none;
-  }
-
-}
-
 // ----------- Container styles
 
 header,
@@ -34,16 +22,6 @@ footer p a {
     text-decoration: none;    
   }
 }
-
-/*
-.drivera {
-  color: $mrmrs-blue;
-}
-
-.driverb {
-  color: $mrmrs-fuchsia;
-}
-*/
 
 .red {
   color: $color-highlight;
