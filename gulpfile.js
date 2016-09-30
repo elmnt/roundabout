@@ -72,6 +72,11 @@ gulp.task('minifyHTML', function() {
     }))
 });
 
+/* 
+gulp-imagemin is installed, 
+but we'll handle that manually for this project
+*/
+
 // ----------- DEFAULT (local development)
 
 gulp.task('default', ['serve']);

@@ -2,7 +2,11 @@
 
 This is my entry for the 2016 [10k Apart Contest](https://a-k-apart.com).  
 
-[http://howtousearoundabout.com](howtousearoundabout.com)
+[http://howtousearoundabout.com](howtousearoundabout.com)  
+
+### Inspiration  
+
+This project was inspired by a roundabout that was installed in my small, coastal Southern California neighborhood, and the resulting traffic patterns. I found that people relied on previous right-of-way habits, while ignoring the obvious and simple way a roundabout works. So this was a chance to make fun of them. That's all.
 
 ### Project Stats 
 
