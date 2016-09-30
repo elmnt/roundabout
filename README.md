@@ -22,9 +22,7 @@ There's a pretty large gap between the ideals of lightweight, semantic, accessib
 
 Remember what your high school basketball coach used to say? "It's the fundamentals. Focus on the fundamentals." I didn't play basketball in high school. I don't even watch basketball. It's a lazy analogy. You get it.  
 
-This project was a great reminder of the fundamental structure that needs to sit under the modern app-driven web experience today. And under the frameworks and libraries, maintaining semantic, accessible code takes effort.  
-
-This was a fun exercise. Working toward minimalism under technical constraints is always great practice. 
+This project was a great reminder of the fundamental structure that needs to sit under the modern app-driven web experience today. This was a fun exercise. Working toward minimalism under technical constraints is always great practice. 
 
 ### Tools / Credit
 
