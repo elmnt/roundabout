@@ -72,17 +72,6 @@ gulp.task('minifyHTML', function() {
     }))
 });
 
-// ----------- Minify images
-// I'm doing this manually for more control
-
-/*
-gulp.task('minifyImages', function(){
-  return gulp.src(ass_i)
-  .pipe(imagemin())
-  .pipe(gulp.dest('dist/img'))
-});
-*/
-
 // ----------- DEFAULT (local development)
 
 gulp.task('default', ['serve']);
@@ -110,12 +99,5 @@ gulp.task('build', ['pre'], function() {
   ], { base: 'app/'})
   .pipe(gulpif('*.html', htmlmin({collapseWhitespace: true})))
   .pipe(gulpif('*.html', strip()))
-  /* 
-  This is handled on the server, we don't 
-  deliver the compressed content:
-  .pipe(gulpif('*.html', gzip()))
-  .pipe(gulpif('*.css', gzip()))
-  .pipe(gulpif('*.js', gzip()))
-  */
   .pipe(gulp.dest('dist/'));
 });
