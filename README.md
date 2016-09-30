@@ -12,12 +12,6 @@ Tested on: [websiteoptimization.com](http://analyze.websiteoptimization.com/wso)
 
 There are a lot sources for page weight tests, with varying methods and result classifications. This was one of many that I used. I also relied heavily on Chrome's Dev Tools.  
 
-### Conclusions  
-
-There's a pretty large gap between the ideals of lightweight, semantic, accessible web pages, and the demands of most client work. Features get added. Code gets bloated. Pages get heavier.  
-
-This project was a reminder of the fundamental structure that needs to sit under the modern app-driven web experience today. Working toward minimalism under technical constraints is always good practice. 
-
 ### Tools / Credit
 
 These are some of the resources I used to complete this project:  
