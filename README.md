@@ -10,11 +10,7 @@ According to my final test, before submission: **7.799 KB**
 
 Tested on: [websiteoptimization.com](http://analyze.websiteoptimization.com/wso)  
 
-There are a lot sources for page weight tests, with varying methods and result classifications. This was one of many that I used. I also relied heavily on Chrome's Dev Tools.  
-
-### Tools / Credit
-
-These are some of the resources I used to complete this project:  
+### Tools Used / Credit 
 
 Google page speed insights  
 https://developers.google.com/speed/pagespeed/insights/
