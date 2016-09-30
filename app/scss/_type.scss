@@ -11,9 +11,33 @@ h3 {
   line-height: $header-line-height;
 }
 
-h1 { font-size: $h1-font-size; }
-h2 { font-size: $h2-font-size; }
-h3 { font-size: $h3-font-size; }
+h1 { 
+  font-size: $h1-font-size-m: 2rem;    
+  @media only screen and (min-width: $grid-breakpoint-md){ 
+    font-size: $h1-font-size; 
+  } 
+}
+h2 { 
+  font-size: $h2-font-size-m: 1.5rem;  
+  @media only screen and (min-width: $grid-breakpoint-md){ 
+    font-size: $h2-font-size; 
+  } 
+}
+h3 { 
+  font-size: $h3-font-size-m: 1.25rem; 
+  @media only screen and (min-width: $grid-breakpoint-md){ 
+    font-size: $h3-font-size; 
+  } 
+}
+
+/*
+
+@media only screen and (min-width: $grid-breakpoint-md){}
+
+$h1-font-size-m: 2rem;
+$h2-font-size-m: 1.5rem;
+$h3-font-size-m: 1.25rem;
+*/
 
 p {
   margin-top: 0;
