@@ -2,11 +2,7 @@
 
 This is my entry for the [10k Apart Contest](https://a-k-apart.com).  
 
-Project site: [http://howtousearoundabout.com](http://howtousearoundabout.com)
-
-### Inspiration  
-
-Roundabouts have been growing in popularity in the U.S. for quite a while now. In my experience, when they replace a busy intersection that has regular and habitual traffic patterns, drivers tend to maintain those patterns in spite of the very simple and very obvious roundabout rules.
+[http://howtousearoundabout.com](howtousearoundabout.com)
 
 ### Project Stats 
 
@@ -20,13 +16,11 @@ There are a lot sources for page weight tests, with varying methods and result c
 
 There's a pretty large gap between the ideals of lightweight, semantic, accessible web pages, and the demands of most client work. Features get added. Code gets bloated. Pages get heavier.  
 
-Remember what your high school basketball coach used to say? "It's the fundamentals. Focus on the fundamentals." I didn't play basketball in high school. I don't even watch basketball. It's a lazy analogy. You get it.  
-
-This project was a great reminder of the fundamental structure that needs to sit under the modern app-driven web experience today. This was a fun exercise. Working toward minimalism under technical constraints is always great practice. 
+This project was a reminder of the fundamental structure that needs to sit under the modern app-driven web experience today. Working toward minimalism under technical constraints is always good practice. 
 
 ### Tools / Credit
 
-The wealth of tools at the disposal of the designer/developer is amazing. I've added quite a few bookmarks, as a result of this project.  
+These are some of the resources I used to complete this project:  
 
 Google page speed insights  
 https://developers.google.com/speed/pagespeed/insights/
