@@ -40,7 +40,6 @@ gulp.task('serve', ['browserSync', 'compileSass', 'minifyScripts'], function (){
   gulp.watch(ass_h, browserSync.reload); 
 });
 
-
 // ----------- Minify JS & Compile Sass
 
 gulp.task('minifyScripts', function() {
