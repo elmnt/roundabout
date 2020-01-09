@@ -1,8 +1,6 @@
 # How To Use a Roundabout
 
-This is my entry for the 2016 [10k Apart Contest](https://a-k-apart.com).  
-
-http://howtousearoundabout.com 
+This is my entry for the 2016 [10k Apart Contest](https://a-k-apart.com).   
 
 ### Inspiration  
 
